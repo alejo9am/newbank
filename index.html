@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewBank</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="simple-header">
+        <div class="header-inner">
+            <div class="logo" aria-label="NewBank">
+                <svg class="logo-svg" viewBox="0 0 900 160" width="350" height="60" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block">
+                    <path d="M135 35 Q270 -10 450 35" stroke="var(--accent)" stroke-width="10" fill="none" stroke-linecap="round"/>
+                    <text x="0" y="130" font-family="Montserrat, Arial, sans-serif" font-size="120" font-weight="700" fill="var(--accent)">New</text>
+                    <text x="285" y="130" font-family="Montserrat, Arial, sans-serif" font-size="120" font-weight="700" fill="#fff">Bank</text>
+                </svg>
+            </div>
+            <nav class="simple-nav">
+                <a href="#how">Cómo funciona</a>
+                <a href="#causes">Causas</a>
+                <a href="#faq">FAQ</a>
+                <a href="https://www.figma.com/proto/..." class="cta" target="_blank">Pruébalo</a>
+            </nav>
+        </div>
+        </header>
+    <div class="container">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Cambiar tema">
+            <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+        </button>
+
+        <div class="breadcrumbs" id="breadcrumbs">Home</div>
+
+        <section class="hero-boceto" id="home">
+            <div class="hero-boceto-left">
+                <h1>
+                    Haz que tus céntimos<br>
+                    <span class="highlight">cambien</span><br>
+                    el mundo
+                </h1>
+                <p class="hero-subtitle">Convierte el redondeo de tus compras en ayuda real para quienes más lo necesitan. Únete al cambio social de forma automática y transparente.</p>
+                <div class="hero-badges">
+                    <span class="badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="8"/><path d="M7 9.5l2 2 4-4"/></svg>
+                        Prototipo disponible
+                    </span>
+                    <span class="badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="12" height="8" rx="2"/><path d="M7 7V5a2 2 0 0 1 4 0v2"/></svg>
+                        100% seguro
+                    </span>
+                    <span class="badge">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="8"/><path d="M5 9h8M9 5v8"/></svg>
+                        Sin compromiso
+                    </span>
+                </div>
+                <a href="https://www.figma.com/proto/..." class="btn btn-primary" target="_blank">Pruébalo</a>
+            </div>
+            <div class="hero-boceto-right">
+                <div class="mockup-container">
+                    <div class="mockup-frame">
+                        <div class="mockup-notch"></div>
+                <img id="hero-img" src="hero.png" alt="App Redondeo Solidario">
+                    </div>
+                    <div class="mockup-shadow"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="steps" id="how">
+            <div class="step">
+                <h3>1. Paga con tu tarjeta</h3>
+                <p>Usa NewBank como siempre, sin complicaciones.</p>
+            </div>
+            <div class="step">
+                <h3>2. Redondeamos los céntimos</h3>
+                <p>
+                    La operación de €<strong>4,23</strong> pasa a €<strong>5,00</strong>, y los +€<strong>0,77</strong>
+                    se guardan.
+                </p>
+            </div>
+            <div class="step">
+                <h3>3. Dona la diferencia</h3>
+                <p>Mensualmente transferimos tu "hucha solidaria" a ONGs seleccionadas.</p>
+            </div>
+        </section>
+
+        <section class="benefits" id="benefits">
+            <h2>¿Por qué elegir <span class="highlight">New</span>Bank?</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h3>Sin esfuerzo</h3>
+                    <p>La solidaridad se activa automáticamente con cada compra. No necesitas hacer nada más.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Totalmente transparente</h3>
+                    <p>Accede a informes detallados y comprobantes de cada donación en cualquier momento.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Flexible</h3>
+                    <p>Elige tu causa, ajusta el redondeo y cambia tus preferencias cuando quieras.</p>
+                </div>
+                <div class="benefit-card">
+                    <h3>Seguro</h3>
+                    <p>Protegido con cifrado end-to-end y autenticación de doble factor.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="causes" id="causes">
+            <h2>Causas que apoyamos</h2>
+            <div class="causes-container">
+                <div class="causes-carousel">
+                    <div class="causes-track">
+                        <div class="cause-card">
+                            <h3>Educación</h3>
+                            <p>Apoya proyectos educativos y becas para niños y jóvenes en situación vulnerable.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Medio Ambiente</h3>
+                            <p>Contribuye a la conservación de ecosistemas y lucha contra el cambio climático.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Salud</h3>
+                            <p>Ayuda a mejorar el acceso a la salud en comunidades desfavorecidas.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Vivienda</h3>
+                            <p>Apoya proyectos de vivienda digna y lucha contra la exclusión residencial.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Alimentación</h3>
+                            <p>Contribuye a garantizar el acceso a una alimentación adecuada para todos.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Empleo</h3>
+                            <p>Ayuda a la inserción laboral de personas en riesgo de exclusión social.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Infancia</h3>
+                            <p>Protege los derechos y el bienestar de los niños y niñas más vulnerables.</p>
+                        </div>
+                        <div class="cause-card">
+                            <h3>Emergencias</h3>
+                            <p>Apoya la respuesta inmediata ante catástrofes y situaciones de emergencia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="security" id="security">
+            <h2>Seguridad y Transparencia</h2>
+            <div class="security-grid">
+                <div class="security-card">
+                    <div class="security-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                        </svg>
+                    </div>
+                    <h3>Cifrado End-to-End</h3>
+                    <p>Tus datos están protegidos con la más alta tecnología de encriptación.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3>Informes Detallados</h3>
+                    <p>Accede a informes mensuales de todas tus donaciones y su impacto.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                        </svg>
+                    </div>
+                    <h3>ONGs Verificadas</h3>
+                    <p>Trabajamos exclusivamente con organizaciones auditadas y certificadas.</p>
+                </div>
+                <div class="security-card">
+                    <div class="security-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="12" y1="8" x2="12" y2="12"></line>
+                            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+                        </svg>
+                    </div>
+                    <h3>Control Total</h3>
+                    <p>Activa, pausa o cancela tus donaciones cuando quieras.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq" id="faq">
+            <h2>Preguntas Frecuentes</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo se elige la ONG receptora?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Puedes seleccionar tu causa preferida desde el catálogo o dejar que el sistema elija automáticamente cada mes entre las ONG destacadas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Puedo pausar el redondeo?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, en cualquier momento puedes pausar o reactivar el redondeo desde la configuración de la app.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo obtengo comprobantes?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Cada transferencia mensual genera un comprobante PDF que encontrarás en la sección de informes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Es seguro?</h3>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Utilizamos cifrado end-to-end y cumplimos con todas las normativas de protección de datos (GDPR/RGPD).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>¿Listo para empezar a ayudar?</h2>
+                <p>Prueba nuestro prototipo y descubre cómo puedes marcar la diferencia con cada compra.</p>
+                <div class="cta-buttons">
+                    <a href="https://www.figma.com/proto/..." class="btn btn-primary">Probar Prototipo</a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            &copy; 2025 NewBank · <a href="#">Política de privacidad</a> · <a href="#">Términos y condiciones</a>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
