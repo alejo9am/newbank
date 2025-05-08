@@ -33,10 +33,10 @@ const heroImg = document.getElementById('hero-img');
 const applyTheme = theme => {
     if (theme === 'light') {
         document.body.setAttribute('data-theme', 'light');
-        heroImg.src = 'hero.png';
+        heroImg.src = 'img/hero.png';
     } else {
         document.body.removeAttribute('data-theme');
-        heroImg.src = 'hero.png';
+        heroImg.src = 'img/hero.png';
     }
 };
 

@@ -1,6 +1,6 @@
 # Redondeo Solidario · NewBank
 
-![Logo NewBank](./logo.png)
+![Logo NewBank](./src/logo.png)
 
 Landing page profesional para la funcionalidad **Redondeo Solidario** de NewBank: convierte los céntimos de tus compras en ayuda real para quienes más lo necesitan.
 
