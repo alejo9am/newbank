@@ -1,14 +1,15 @@
-# Redondeo Solidario · NewBank
+<div style="text-align: center;">
+    <img src="./img/logoblack.svg" alt="Logo NewBank" width="400">
+    <h2>Redondeo Solidario</h2>
+</div>
 
-![Logo NewBank](./src/logo.png)
-
-Landing page profesional para la funcionalidad **Redondeo Solidario** de NewBank: convierte los céntimos de tus compras en ayuda real para quienes más lo necesitan.
+Landing page profesional para la aplicación de **NewBank**, la herramienta de **redondeo solidario**. Convierte los céntimos de tus compras en ayuda real para quienes más lo necesitan.
 
 ---
 
-## 🚀 ¿Qué es Redondeo Solidario?
+## 🚀 ¿Qué es NewBank?
 
-Redondeo Solidario es una iniciativa de NewBank que permite a los usuarios donar automáticamente los céntimos de cada compra a causas sociales y ONGs verificadas. Con cada pago, el importe se redondea al euro superior y la diferencia se acumula en una "hucha solidaria" que se dona periódicamente.
+Newbank es una iniciativa que permite a los usuarios donar automáticamente los céntimos de cada compra a causas sociales y ONGs verificadas. Con cada pago, el importe se redondea al euro superior y la diferencia se acumula en una "hucha solidaria" que se dona periódicamente.
 
 ---
 
@@ -23,30 +24,15 @@ Redondeo Solidario es una iniciativa de NewBank que permite a los usuarios donar
 
 ---
 
-## 🛠️ Estructura del proyecto
-
-```
-/
-├── index.html         # Página principal
-├── css/
-│   └── styles.css     # Estilos globales y temas
-├── js/
-│   └── main.js        # Funcionalidad interactiva (carrusel, temas, etc.)
-├── hero.png           # Mockup de la app (modo oscuro)
-├── hero_claro.png     # Mockup de la app (modo claro)
-├── logo.svg           # Logo NewBank (SVG)
-└── README.md          # Este archivo
-```
-
----
-
 ## 🖥️ Vista previa
+
+Puedes ver la web oficial aquí:
+
+👉 [NewBank](alejo9am.github.io/newbank)
 
 Puedes ver el prototipo interactivo de la app aquí:
 
-👉 [Probar prototipo en Figma](https://www.figma.com/proto/...)
-
-Y la landing page en local abriendo `index.html` en tu navegador.
+👉 [Probar prototipo en Figma](https://www.figma.com/proto/DgPHiMxVvGbTsgxPmg7nqM/Trabajo-IPO-2?node-id=2-2502&p=f&t=yDCPUxVl4E3HW1Z4-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A2502)
 
 ---
 
@@ -55,15 +41,6 @@ Y la landing page en local abriendo `index.html` en tu navegador.
 - **Modo oscuro**: Predeterminado, con fondo oscuro y acentos amarillos.
 - **Modo claro**: Alternativo, con fondo cálido, cards blancas y detalles en amarillo.
 - **Cambio de tema**: Botón flotante para alternar entre modos, con preferencia guardada.
-
----
-
-## 📦 Despliegue en GitHub Pages
-
-1. Sube el contenido del proyecto a un repositorio de GitHub.
-2. Ve a la configuración del repositorio → Pages.
-3. Selecciona la rama `main` y la carpeta `/root`.
-4. Accede a tu landing en: `https://TU_USUARIO.github.io/TU_REPO/`
 
 ---
 
@@ -76,16 +53,11 @@ Y la landing page en local abriendo `index.html` en tu navegador.
 
 ---
 
-## 📄 Licencia
-
-Este proyecto es solo para fines demostrativos y académicos. Todos los derechos reservados a NewBank.
-
----
-
 ## 🤝 Contacto y agradecimientos
 
-- Equipo de desarrollo: [Tu nombre o equipo]
-- Diseño de prototipo: [Enlace a Figma]
+- Desarrollador web: [Alejo Arenas Moreira](www.linkedin.com/in/alejoarenas)
+- Diseño de prototipo: [Lucian Andrei Negoita](https://lucianandreinegoita.dev/en/)
+- Documentación: Juan Carlos Toboso Blázquez y Miguel Ángel Ballesteros Perona
 - Inspiración: usuarios y ONGs que hacen posible el cambio
 
 ---
