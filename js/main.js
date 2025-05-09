@@ -29,14 +29,17 @@ document.querySelectorAll('section[id]').forEach(sec => {
 // Theme toggle functionality
 const toggle = document.getElementById('theme-toggle');
 const heroImg = document.getElementById('hero-img');
+const logoSvg = document.getElementById('logo-svg');
 
 const applyTheme = theme => {
     if (theme === 'light') {
         document.body.setAttribute('data-theme', 'light');
         heroImg.src = 'img/hero.png';
+        logoSvg.src = 'img/logoblack.svg';        
     } else {
         document.body.removeAttribute('data-theme');
         heroImg.src = 'img/hero.png';
+        logoSvg.src = 'img/logowhite.svg';
     }
 };
 
