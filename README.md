@@ -1,7 +1,7 @@
-<div style="text-align: center;">
+<p align="center">
     <img src="./img/logoblack.svg" alt="Logo NewBank" width="400">
-    <h2>Redondeo Solidario</h2>
-</div>
+</p>
+<h1 align="center">Redondeo Solidario</h1>
 
 Landing page profesional para la aplicación de **NewBank**, la herramienta de **redondeo solidario**. Convierte los céntimos de tus compras en ayuda real para quienes más lo necesitan.
 
@@ -55,7 +55,7 @@ Puedes ver el prototipo interactivo de la app aquí:
 
 ## 🤝 Contacto y agradecimientos
 
-- Desarrollador web: [Alejo Arenas Moreira](www.linkedin.com/in/alejoarenas)
+- Desarrollador web: [Alejo Arenas Moreira](https://www.linkedin.com/in/alejoarenas)
 - Diseño de prototipo: [Lucian Andrei Negoita](https://lucianandreinegoita.dev/en/)
 - Documentación: Juan Carlos Toboso Blázquez y Miguel Ángel Ballesteros Perona
 - Inspiración: usuarios y ONGs que hacen posible el cambio
